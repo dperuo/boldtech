@@ -9,11 +9,11 @@
     "test": "test"
   },
   "scripts": {
-    "build": "npm run tsc && npm run uglifyjs",
+    "build": "npm run tsc && npm run ujs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "tscw": "tsc --watch",
-    "uglifyjs": "uglifyjs ./dist/server-utils.service.js -c -m -o ./dist/server-utils.service.min.js --source-map ./dist/server-utils.service.min.js.map"
+    "ujs": "uglifyjs ./dist/server-utils.service.js -c -m -o ./dist/server-utils.service.min.js --source-map ./dist/server-utils.service.min.js.map"
   },
   "author": "Derek Peruo <derek@derekperuo.net>",
   "license": "MIT",
