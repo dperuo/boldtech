@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "tscw": "tsc --watch",
-    "ujs": "uglifyjs ./dist/server-utils.service.js -c -m -o ./dist/server-utils.service.min.js --source-map ./dist/server-utils.service.min.js.map"
+    "ujs": "uglifyjs ./src/server-utils.service.js -c -m -o ./dist/server-utils.service.min.js --source-map ./dist/server-utils.service.min.js.map"
   },
   "author": "Derek Peruo <derek@derekperuo.net>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
     "eslint-plugin-react": "^6.1.2",
-    "tsc": "^1.20150623.0",
+    "typescript": "^1.8.10",
     "typings": "^1.3.2",
     "uglify-js": "^2.7.3"
   }
